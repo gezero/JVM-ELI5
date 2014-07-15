@@ -1,31 +1,33 @@
-package cz.peinlich.eli5;
+package cz.peinlich.eli5.jdk7;
 
 /**
+ * This class is showing new features of JDK7 - numeric constants
+ * <p/>
  * source: http://www.root.cz/clanky/novinky-v-nbsp-jdk-7-aneb-mirny-pokrok-v-nbsp-mezich-zakona-1/
+ *
+ * @see <a href="http://www.root.cz/clanky/novinky-v-nbsp-jdk-7-aneb-mirny-pokrok-v-nbsp-mezich-zakona-1">root.cz</a>
  */
-public class NumericConstants
-{
-    public static void main(String[] args)
-    {
-        int  decimal1 = 1234567890;
-        int  decimal2 = 1_234_567_890; // separating thousands
+public class NumericConstants {
+    public static void main(String[] args) {
+        int decimal1 = 1234567890;
+        int decimal2 = 1_234_567_890; // separating thousands
         long decimal3 = -99_88_77_66_55_44_33_22_11L;
 
         // binary
-        int  binary1 = 0b01000010;
+        int binary1 = 0b01000010;
         long binary2 = 0b0000_0001_0010_0011_0100_0101;
 
         // negative binary...
         long binary3 = -0b0000_0001_0010_0011_0100_0101;
 
         //octal
-        int  octal1 = 01234567;
-        int  octal2 = 012_34_56_77;
+        int octal1 = 01234567;
+        int octal2 = 012_34_56_77;
         long octal3 = 0666_555_444_333_222_111L;
 
         //hexa
-        int  hexadecimal1 = 0x12345678;
-        int  hexadecimal2 = 0x12_34_56_78;
+        int hexadecimal1 = 0x12345678;
+        int hexadecimal2 = 0x12_34_56_78;
         long hexadecimal3 = 0x88_77_66_55_44_33_22_11L;
 
         // floats can use underscores
