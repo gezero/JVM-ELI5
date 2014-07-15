@@ -1,7 +1,7 @@
 package cz.peinlich.eli5.jdk7;
 
 /**
- * This class is showing new features of JDK7 - numeric constants
+ * This class is showing how to newly write numeric constants in jdk7
  * <p/>
  * source: http://www.root.cz/clanky/novinky-v-nbsp-jdk-7-aneb-mirny-pokrok-v-nbsp-mezich-zakona-1/
  *
