@@ -1,4 +1,4 @@
-package cz.peinlich.eli5.jdk7.cz.peinlich.eli5.gc;
+package cz.peinlich.eli5.gc;
 
 import java.util.ArrayList;
 import java.util.List;
