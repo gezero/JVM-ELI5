@@ -1,7 +1,7 @@
 package cz.peinlich.eli5.jdk7;
 
 /** simple enum to switch on */
-enum T {
+enum TestEnum {
     ONE, TWO, THREE
 }
 
@@ -14,7 +14,7 @@ enum T {
  */
 public class EnumSwitchTest {
     public static void main(String args[]) {
-        T x = T.TWO;
+        TestEnum x = TestEnum.TWO;
         int y;
         switch (x) {
             case ONE:
